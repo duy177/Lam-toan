@@ -12,6 +12,11 @@
 		815930031DA35135004B5ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815930011DA35135004B5ECB /* Main.storyboard */; };
 		815930051DA35135004B5ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815930041DA35135004B5ECB /* Assets.xcassets */; };
 		815930081DA35135004B5ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815930061DA35135004B5ECB /* LaunchScreen.storyboard */; };
+		815930151DA351C1004B5ECB /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 815930101DA351C1004B5ECB /* board.png */; };
+		815930161DA351C1004B5ECB /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 815930111DA351C1004B5ECB /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */; };
+		815930171DA351C1004B5ECB /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = 815930121DA351C1004B5ECB /* note1.png */; };
+		815930181DA351C1004B5ECB /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = 815930131DA351C1004B5ECB /* note2.png */; };
+		815930191DA351C1004B5ECB /* note3.png in Resources */ = {isa = PBXBuildFile; fileRef = 815930141DA351C1004B5ECB /* note3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		815930041DA35135004B5ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		815930071DA35135004B5ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		815930091DA35135004B5ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815930101DA351C1004B5ECB /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		815930111DA351C1004B5ECB /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cartoon-Springs-PPT-Backgrounds-1024x768.jpg"; sourceTree = "<group>"; };
+		815930121DA351C1004B5ECB /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note1.png; sourceTree = "<group>"; };
+		815930131DA351C1004B5ECB /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note2.png; sourceTree = "<group>"; };
+		815930141DA351C1004B5ECB /* note3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		81592FFC1DA35135004B5ECB /* day toan */ = {
 			isa = PBXGroup;
 			children = (
+				8159300F1DA351B2004B5ECB /* anh */,
 				81592FFD1DA35135004B5ECB /* AppDelegate.swift */,
 				81592FFF1DA35135004B5ECB /* ViewController.swift */,
 				815930011DA35135004B5ECB /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				815930091DA35135004B5ECB /* Info.plist */,
 			);
 			path = "day toan";
+			sourceTree = "<group>";
+		};
+		8159300F1DA351B2004B5ECB /* anh */ = {
+			isa = PBXGroup;
+			children = (
+				815930101DA351C1004B5ECB /* board.png */,
+				815930111DA351C1004B5ECB /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */,
+				815930121DA351C1004B5ECB /* note1.png */,
+				815930131DA351C1004B5ECB /* note2.png */,
+				815930141DA351C1004B5ECB /* note3.png */,
+			);
+			name = anh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +119,7 @@
 				TargetAttributes = {
 					81592FF91DA35135004B5ECB = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -122,9 +146,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815930151DA351C1004B5ECB /* board.png in Resources */,
 				815930081DA35135004B5ECB /* LaunchScreen.storyboard in Resources */,
 				815930051DA35135004B5ECB /* Assets.xcassets in Resources */,
+				815930181DA351C1004B5ECB /* note2.png in Resources */,
+				815930171DA351C1004B5ECB /* note1.png in Resources */,
+				815930191DA351C1004B5ECB /* note3.png in Resources */,
 				815930031DA35135004B5ECB /* Main.storyboard in Resources */,
+				815930161DA351C1004B5ECB /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +282,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.day-toan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +294,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.day-toan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +317,7 @@
 				8159300E1DA35135004B5ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
